@@ -1,338 +1,423 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Portafolio
-        </title>
-        <meta charset="UTF-8"/>
-        <meta name="author" content="Marcelo Erreys"/>
-        <meta name="description" content="Portafolio de proyectos personales"/>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <meta name="keywords" content="portafolio, main, pagina-main, pagina-principal"/>
-        <link href="./assets/css/style.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive personal portfolio website design tutorial</title>
 
-    </head>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
 
-    <body>
-        <header>
-            <section class="nav-bar">
-                <div class="container nav">
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com/marceErreys" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/marce._.__/" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <a href="https://github.com/dmerreys" target="_blank"><i class="fa fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/marcelo-erreys/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="mailto:denmar.676@hotmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
-                    </div><!--social-icons-->
+</head>
+<body>
 
-                        <div class="menu-desktop w50">
-                            <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#sobre">Acerca de mi</a></li>
-                                <li><a href="#projetos">Proyectos</a></li>
-                                <li><a href="#contato">Contato</a></li>
-                            </ul>
-                        </div><!--menu-desktop-->
-
-                        <div class="menu-mobile">
-
-                            <div id="btn-menu">
-                                <i class="fa fa-bars"></i>
-                            </div>
-                            <ul>
-                                <li><a href="#sobre">Home</a></li>
-                                <li><a href="#sobre">Acerca de mi</a></li>
-                                <li><a href="#projetos">Proyectos</a></li>
-                                <li><a href="#contato">Contato</a></li>
-                            </ul>
-                        </div><!--menu-mobile-->
-                    <!-- <div class="clear"></div> -->
-                </div><!--container-->
-                
-            </section><!--nav-bar-->
+<!-- custom cursors  -->
+<div class="cursor-1"></div>
+<div class="cursor-2"></div>
 
 
-            <section id="home">
-                <div class="bg-header">
-                    <div class="container">
-                        <div class="about">
-                            <div class="welcome w50">
-                                <h2>Bienvenidos <br>Este es mi portafolio de proyectos personales<span>|</span></h2>
-                            </div><!--welcome-->
-                            <div class="assunto w50">
-                                <h2>Desarrollador web en proceso <br>Estudiante de ingeniería en sistemas por la Universidad Central del Ecuador</h2>
-                                <img src="./assets/img/svg.png">
-                            </div><!--assunto-->
-                        </div><!--about-->
-                    </div><!--container-->
-                </div><!--bg-header-->
-            </section><!--home-->
-        </header>
+<div id="menu-bars" class="fas fa-bars"></div>
+    
+<!-- header section starts  -->
 
-        <section id ="sobre">
-            <div class="container">
+<header>
 
-                <div class="img-perfil">
-                    <img src="./assets/img/foto.jpg">
-                </div>
+    <a href="#" class="logo"> <span>shaikh</span> anas </a>
 
-                <div class="info">
-                    <div class="biografia w50">
-                        <h2>Un poco sobre mi</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolore, harum quam deleniti totam, quisquam voluptates molestias adipisci dolor neque, veniam porro consequatur molestiae! Rerum temporibus dicta hic aliquid distinctio.
-                            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nobis nostrum aliquid sequi aperiam ipsum id nulla velit. Atque earum a, nobis consectetur eum numquam voluptatem cupiditate quis sunt nam?</p>
-                    </div><!--biografia-->
-                    <div class="line-vertical"></div>
-                    <div class="ocupacoes w50">
-                        <h2>Objetivo</h2>
-                        <p>Crecimiento personal<br></p>
-                        <h2>Actualmente Estudio</h2>
-                        <p>Java EE, JavaScript</p>
-                        <p>Actualmente cursando 7mo semestre de la carrera</p>
-                        
-                    </div><!--ocupacoes-->
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#service">service</a>
+        <a href="#experience">experience</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">contact</a>
+    </nav>
 
-                </div><!--info-->
+    <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
 
-                
+</header>
 
-                <div class="galeria">
-                    <div class="titulo-galeria">
-                        <h2>Certificaciones</h2>
-                    </div><!--titulo-galeria-->
-                        <div class="galeria-single">
-                                    <div class="card" data-aos="fade-right">
-                                        <h2>Programación con Javascript</h2>
-                                        <a href="https://1drv.ms/b/s!AoO5GBPjdNPeh0mbz0LQ87jEV_Lv?e=isjQeN" target="_blank">
-                                            <div class="btn-more"><i class="fa fa-info-circle"></i> Click aquí </div>
-                                        </a>
-                                    </div>
-                                    <div class="card" data-aos="fade-down">
-                                        <h2>Javascript ES9, HTML, CSS3 y NodeJS desde 0</h2>
-                                        <a href="https://www.udemy.com/certificate/UC-9cbd9e8a-7ce2-43b0-98fc-262821cb653e/" target="_blank">
-                                            <div class="btn-more"><i class="fa fa-info-circle"></i> Click aquí </div>
-                                        </a>
-                                    </div>
+<!-- header section ends -->
 
-                                    <div class="card" data-aos="fade-right">
-                                        <h2>Aprende Scrum</h2>
-                                        <a href="https://www.linkedin.com/learning/certificates/76aee597145ec34f868fcf229ea06c3551615f7a202ddc5d503596e86333f394?trk=share_certificate" target="_blank">
-                                            <div class="btn-more"><i class="fa fa-info-circle"></i> Click aquí </div>
-                                        </a>
-                                    </div>
+<!-- home section starts  -->
 
-                                    <div class="card" data-aos="fade-down">
-                                        <h2>Git y GitHub 100% práctico</h2>
-                                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-2fee138a-ce3b-4893-9cf1-dec028b3513c.pdf" target="_blank">
-                                            <div class="btn-more"><i class="fa fa-info-circle"></i> Click aquí </div>
-                                        </a>
-                                    </div>
+<section class="home" id="home">
 
-                                    
+    <div class="content">
+        <span class="hi"> hi there... </span>
+        <h3> i am <span> shaikh anas </span> </h3>
+        <p class="info"> i am a front-end developer </p>
+        <p class="text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quidem excepturi natus iste ut. Alias, quod? Earum pariatur obcaecati dolorum! </p>
+        <a href="#about" class="btn">about me</a>
+    </div>
 
-                        </div><!--galeria-single-->
-                    
-                    <div class="titulo-galeria">
-                        <h2>Otras Certificaciones</h2>
-                    </div><!--titulo-galeria-->
+    <div class="image">
+        <img src="images/home-img.png" alt="">
+    </div>
 
-                    <div class="galeria-single" >
-                            <div class="card" data-aos="fade-down">
-                                <h2><i class=""></i>JavaScript Esencial</h2>
-                                <a href="https://www.linkedin.com/learning/certificates/0f84834e99a24c2fad35ef01bcd2e5049a6177a056593647887d0ac157312624" target="_blank">
-                                    <div class="btn-more"><i class="fa fa-info-circle"></i> Click aquí </div>
-                                </a>
-                            </div>
-                            <div class="card" data-aos="fade-right">
-                                <h2>JavaScript avanzado: Buenas prácticas</h2>
-                                <a href="https://www.linkedin.com/learning/certificates/003fa0c5f18b1d99abd9e25f331bb461757a5fb27b05aee67989bba4fa302b32" target="_blank">
-                                    <div class="btn-more"><i class="fa fa-info-circle"></i> Click aquí </div>
-                                </a>
-                            </div>
-                            <div class="card" data-aos="fade-down">
-                                <h2>Conviértete en desarrollador web full Stack</h2>
-                                <a href="https://www.linkedin.com/learning/paths/conviertete-en-desarrollador-web-full-stack" target="_blank">
-                                    <div class="btn-more"><i class="fa fa-info-circle"></i> Click aquí </div>
-                                </a>
-                            </div>
+</section>
 
-                            <div class="card" data-aos="fade-right">
-                                <h2>Aprende JavaScript y Jquery de 0 a 100</h2>
-                                <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-56cabb24-59d5-4496-a671-0056fd914e34.pdf" target="_blank">
-                                    <div class="btn-more"><i class="fa fa-info-circle"></i> Click aquí </div>
-                                </a>
-                            </div>
-                    </div>
-                
-                </div><!--galeria-->
-            </div><!--container-->
+<!-- home section ends -->
 
-            <div class="tecnologias container">
+<!-- about section starts  -->
 
-                <div class="titulo-tecnologias">
-                    <h2>Skills</h2>
-                </div>
-                <div class="skills" data-aos="zoom-in">
-                    <div class="hard-skills"><a href="https://www.flaticon.es/iconos-gratis/html" title="html ícones"><img src="./assets/img/html-5.png"></a></div>
-                    <div class="hard-skills"><a href="https://www.flaticon.es/iconos-gratis/css" title="html ícones"><img src="./assets/img/css-3.png"></a></div>
-                    <div class="hard-skills"><img src="./assets/img/javascirpt.png"/></div>
-                    <div class="hard-skills"><img id="jquery" src="./assets/img/prog_jquery.png"></div>
-                    <div class="hard-skills"><img src="./assets/img/bootstrap-logo-vector.svg"/></div>
-                    <div class="hard-skills"><img src="./assets/img/react.png"/></div>
-                </div>
-            </div><!--tecnologias-->
-        </section><!--sobre-->
+<section class="about" id="about">
+
+<h1 class="heading"> about <span> me </span> </h1>
+
+<div class="row-1">
+
+    <div class="image">
+        <img src="images/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3> my name is shaikh anas & i am a font-end developer </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi error molestias impedit officia! Exercitationem dignissimos esse eos quas nisi impedit delectus, voluptate ullam iste nostrum at. Dolor culpa eaque omnis.</p>
+        <div class="box-container">
+            <div class="box">
+                <p> <span> age : </span> 21 </p>
+                <p> <span> gender : </span> male </p>
+                <p> <span> language : </span> hindi, english </p>
+                <p> <span> work : </span> front-end developer </p>
+            </div>
+            <div class="box">
+                <p> <span> freelance : </span> available </p>
+                <p> <span> phone : </span> +123-456-7890 </p>
+                <p> <span> email : </span> shaikhanas@gmail.com </p>
+                <p> <span> country : </span> india </p>
+            </div>
+        </div>
+        <a href="#" class="btn">download CV</a>
+        <a href="#" class="btn">hire me</a>
+    </div>
+
+</div>
+
+<h1 class="heading"> <span> my </span> skills </h1>
+
+<div class="row-2">
+
+    <div class="skills">
+        <div class="progress">
+            <h3> web design <span> 95% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> web development <span> 80% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> UI design <span> 75% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> seo marketing <span> 85% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> >> 2+ </h3>
+            <p>years of experience</p>
+        </div>
+        <div class="box">
+            <h3> >> 250+ </h3>
+            <p>happy clients</p>
+        </div>
+        <div class="box">
+            <h3> >> 150+ </h3>
+            <p>projects completed</p>
+        </div>
+        <div class="box">
+            <h3> >> 12+ </h3>
+            <p>awards won</p>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- service section starts  -->
+
+<section class="service" id="service">
+
+<h1 class="heading"> <span> my </span> services </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <h3>web design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-paint-brush"></i>
+            <h3>graphic design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-mobile"></i>
+            <h3>responsive design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>seo marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-chart-line"></i>
+            <h3>digital marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>email marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- experience section starts  -->
+
+<section class="experience" id="experience">
+
+    <h1 class="heading"> <span> my </span> experience </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="content">
+                <span> 2015 - 2016 </span>
+                <h3>front-end development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <span> 2016 - 2017 </span>
+                <h3>front-end development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <span> 2017 - 2018 </span>
+                <h3>front-end development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <span> 2018 - 2019 </span>
+                <h3>front-end development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <span> 2019 - 2020 </span>
+                <h3>front-end development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <span> 2020 - 2021 </span>
+                <h3>front-end development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- experience section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span> my </span> portfolio </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/img-1.jpg" alt="">
+            <h3> project 01 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-2.jpg" alt="">
+            <h3> project 02 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-3.jpg" alt="">
+            <h3> project 03 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-4.jpg" alt="">
+            <h3> project 04 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-5.jpg" alt="">
+            <h3> project 05 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-6.jpg" alt="">
+            <h3> project 06 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span> me </span> </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>my email</h3>
+            <p>shaikhanas@gmail.com</p>
+            <p>anasbhai@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>my number</h3>
+            <p>+123-456-7890</p>
+            <p>+111-222-3333</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>my address</h3>
+            <p>ajis class, jogeshwaris west, mumbai, india - 400104</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <form action="">
+
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+
+            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" class="btn" value="send message">
+
+        </form>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1625069635379!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
 
 
-        <section id="projetos">
-            <div class="container">
-                <h2>Proyectos personales</h2>
-            
-                    <div class="projeto-flex">
-                        <div class="projeto-single" data-aos="fade-right">
-                            <h2>BMI</h2>
-                            <img src="#"/>
-                            <div class="button-projeto">
-                                <a href="#" target="_blank">Ir</a>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="projeto-single" data-aos="fade-up">
-                            <h2>Proyeto 2</h2>
-                            <img src="#"/>
-                            <div class="button-projeto">
-                                <a href="#" target="_blank">Ir</a>
-                            </div>
-                        </div>
+</section>
 
-                        <div class="projeto-single" data-aos="fade-down">
-                            <h2>Proyecto 3</h2>
-                            <img src="#"/>
-                            <div class="button-projeto">
-                                <a href="#" target="_blank">Ir</a>
-                            </div>
-                        </div>
+<!-- contact section ends -->
 
-                        <div class="projeto-single" data-aos="fade-right">
-                            <h2>Proyecto 4</h2>
-                            <img src="#"/>
-                            <div class="button-projeto">
-                                <a href="#" target="_blank">Vizualizar!</a>
-                            </div>
-                        </div>
-
-                        <div class="projeto-single" data-aos="fade-up">
-                            <h2>Proyecto 5</h2>
-                            <img src="#"/>
-                            <div class="button-projeto">
-                                <a href="#" target="_blank">Ir</a>
-                            </div>
-                        </div>
-                        
-                        <div class="projeto-single"data-aos="fade-down">
-                            <h2>Proyecto 6</h2>
-                            <img src="#"/>
-                            <div class="button-projeto">
-                                <a href="# target="_blank">Ir</a>
-                            </div>
-                        </div>
-
-                        <div class="projeto-single" data-aos="fade-up">
-                            <h2>Proyecto 7</h2>
-                            <img src="#"/>
-                            <div class="button-projeto">
-                                <a href="#" target="_blank">#</a>
-                            </div>
-                        </div>
-
-                        <div class="projeto-single" data-aos="fade-up">
-                            <h2>Proyecto 8</h2>
-                            <img src="#"/>
-                            <div class="button-projeto">
-                                <a href="#" target="_blank">Ir</a>
-                            </div>
-                        </div>
-
-                        <div class="projeto-single" data-aos="fade-up">
-                            <h2>Proyecto 9</h2>
-                            <img src="#"/>
-                            <div class="button-projeto">
-                                <a href="#" target="_blank">Ir</a>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-            </div><!--container-->
-        </section><!--projetos-->
-
-        <section id="contato">
-            <div class="container box-form">
-                <h1>Formulario de Contacto</h1>
-                <form class="formulario" method="post">
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Nome" name="nome" class="nome"/>
-                    <label>Email</label>
-                    <input type="email" placeholder="Email" name="email" class="email"/>
-                    <label>Mensaje</label>
-                    <textarea placeholder="Mensagem"></textarea>
-                    <button type="submit">Enviar</button>
-                </form><!--formulario-->
-            </div><!--box-form-->
-        </section><!--contato-->
+<!-- footer section  -->
+<footer class="footer"> created by <span> mr. web designer </span> | all rights reserved! </footer>
 
 
-        <section class="footer">
-            <div class="container">
-                <div class="footer-content">
-                    <div class="menu">
-                        <h2>MENU</h2>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#sobre">Sobre Mi</a></li>
-                            <li><a href="#projetos">Proyetos</a></li>
-                            <li><a href="#contato">Contato</a></li>
-                        </ul>
-                    </div><!--menu-->
-                    <div class="redes-sociais">
-                        <h2>REDES SOCIALES</h2>
-                        <a href="https://www.facebook.com/marceErreys" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
-                        <a href="https://www.instagram.com/marce._.__/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
-                        <a href="https://github.com/dmerreys" target="_blank"><i class="fa fa-github"></i> Github</a>
-                        <a href="https://www.linkedin.com/in/marcelo-erreys/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
-                    </div><!--redes-sociais-->
-                    <div class="contatos">
-                        <div class="contato1">
-                            <h2><i class="fa fa-phone"></i> Teléfono:</h2>
-                            <h2><i class="fa fa-envelope"></i> Email:</h2>
-                        </div>
-                        <div class="contato2">
-                            <h2>(+593) 984080071</h2>
-                            <h2>denmar.676@hotmail.com</h2>
-                        </div>
-                    </div><!--links-->
-                </div><!--footer-content-->
-            </div><!--container-->
-                <div class="footer-end">
-                    <div class="copyright">
-                        <p>Todos los derechos reservados ©2022</p>
-                    </div><!--copyright-->
-                    <div class="author"><p>Marcelo Erreys</p></div>
-                </div><!--footer-end-->
-           
-        </section><!--footer-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/button.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  
-    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
 </html>
